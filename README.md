@@ -42,9 +42,9 @@ docker run -it --cap-add=NET_ADMIN --sysctl net.ipv6.conf.all.disable_ipv6=1 --n
 docker run -d \
   --name mongodb \
   -p 27017:27017 \
-  -e MONGO_INITDB_ROOT_USERNAME=mongo_user \
-  -e MONGO_INITDB_ROOT_PASSWORD=mongo_password \
-  mongodb:latest
+  -e MONGO_INITDB_ROOT_USERNAME=mongodb_user \
+  -e MONGO_INITDB_ROOT_PASSWORD=mongodb_password \
+  mongo:latest
 ```
 ```bash
 docker run -it --cap-add=NET_ADMIN --sysctl net.ipv6.conf.all.disable_ipv6=1 --name OpenVPN-LocalClient -v /path/to/openvpn/conf:/vpn
