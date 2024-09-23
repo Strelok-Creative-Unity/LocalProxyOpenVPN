@@ -19,7 +19,7 @@ LocalProxyOpenVPN is a Docker-based solution for setting up an OpenVPN client th
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/LocalProxyOpenVPN.git
+git clone https://github.com/Strelok-Creative-Unity/LocalProxyOpenVPN.git
 cd LocalProxyOpenVPN
 ```
 ### 2. Build the Docker Image
